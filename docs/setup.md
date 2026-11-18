@@ -1,6 +1,6 @@
 # Infrastructure: domain, DNS, and hosting
 
-This is the runbook for the infrastructure behind https://searenityonlummi.com. It is written so a maintainer or coding agent (Claude Code, Codex, or similar) can inspect, fix, or rebuild the setup from this file alone. Dave never needs any of it; his work is all in `site/`.
+This is the runbook for the infrastructure behind https://searenityonlummi.com. It is written so a maintainer or coding agent (Claude Code, Codex, or similar) can inspect, fix, or rebuild the setup from this file alone. Dave never needs any of it; his work is all in [site/](../site/), guided by [AGENTS.md](../AGENTS.md).
 
 Infrastructure changes are made on Steve's machine with Steve's credentials. An agent working in Dave's session must not attempt anything in this file; tell Dave to ask Steve instead.
 
@@ -11,7 +11,7 @@ Infrastructure changes are made on Steve's machine with Steve's credentials. An 
 | Domain registration | AWS Route 53 Domains in Steve's AWS account, region `us-east-1` | `searenityonlummi.com`, auto-renew on, expires 2027-10-08 |
 | DNS | Route 53 public hosted zone, same account | `Z03278562EKNCL6Y73ZQH` |
 | Source repo | GitHub, public | `BigLep/searenityonlummi.com`, default branch `main` |
-| Hosting | GitHub Pages, built by GitHub Actions | workflow `.github/workflows/pages.yml`, publishes `site/` only |
+| Hosting | GitHub Pages, built by GitHub Actions | workflow [pages.yml](../.github/workflows/pages.yml), publishes `site/` only |
 | HTTPS certificate | Issued and renewed automatically by GitHub Pages | covers the bare domain and `www` |
 | Collaborator | GitHub user `davidloeppky` (Dave) | Write access, pushes straight to `main` |
 | Claude access for Dave | Dave's own claude.ai account, Claude desktop app, Code tab | started on a 7-day Pro guest pass from Steve |
@@ -43,7 +43,7 @@ The `A`/`AAAA` values are GitHub Pages' published addresses ([GitHub docs](https
 - Source: GitHub Actions (`build_type: workflow`), not a branch.
 - Custom domain: `searenityonlummi.com`, set in the repo's Pages settings. There is no `CNAME` file in `site/`; with Actions-based Pages the domain lives in settings only.
 - HTTPS enforced.
-- Workflow `.github/workflows/pages.yml` runs on push to `main` (check, then deploy), on pull requests (check only), and on manual dispatch. The check job fails if any image in `site/` still has metadata (`tools/strip-metadata.py --check site`) or any file is over 25 MB.
+- Workflow [.github/workflows/pages.yml](../.github/workflows/pages.yml) runs on push to `main` (check, then deploy), on pull requests (check only), and on manual dispatch. The check job fails if any image in `site/` still has metadata ([tools/strip-metadata.py](../tools/strip-metadata.py) `--check site`) or any file is over 25 MB.
 
 ### Domain verification
 

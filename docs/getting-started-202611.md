@@ -1,11 +1,13 @@
-# Getting started: building searenityonlummi.com with Claude
+# Getting started: building searenityonlummi.com with Claude (November 2026)
 
-Hi Dad! This guide gets you from nothing to working on the website with Claude, an AI assistant that can write the website for you while you tell it what you want. Expect about an hour for the setup. You do not need to know how to code; Claude does that part, and it will explain what it is doing as it goes.
+This guide is a snapshot from November 2026, written for Dave's first setup. Apps and screens change, so if a step no longer matches what you see, ask Claude or Steve rather than following it exactly. For how things work today, see [AGENTS.md](../AGENTS.md) and the [infrastructure runbook](setup.md).
+
+Hi Dad! This guide gets you from nothing to working on the website with Claude, an AI assistant that can write the website for you while you tell it what you want. Expect about an hour for the setup. You won't need to write the code yourself; Claude does that part and explains what it is doing as it goes, and you can dig into the details as much as you like.
 
 Where things are already set up:
 
 - The website address **searenityonlummi.com** works and shows a "coming soon" page.
-- The website's files live on GitHub at https://github.com/BigLep/searenityonlummi.com, and you have access as **davidloeppky**. When you tell Claude to publish, the live site updates within a couple of minutes.
+- The website's files live on GitHub at [github.com/BigLep/searenityonlummi.com](https://github.com/BigLep/searenityonlummi.com), and you have access as **davidloeppky**. When you tell Claude to publish, the live site updates within a couple of minutes.
 
 If you get stuck at any step, take a screenshot and send it to Steve.
 
@@ -65,11 +67,23 @@ Send Claude:
 
 > Interview me about the website I want to build before you build anything.
 
-Claude will ask about what the site should cover, who it is for, how to handle the videos, what should stay private, and how it should look. Answer as much or as little as you like; you can change your mind later.
+Claude will ask about what the site should cover, who it is for, how to handle the videos, what should stay private, and how it should look and be laid out. Answer as much or as little as you like; you can change your mind later.
 
 ## Ideas for what to say next
 
-Once the plan is set, talk to Claude the way you would to a helpful person sitting next to you. For example:
+Once the plan is set, talk to Claude the way you would to a helpful person sitting next to you.
+
+Big-picture ideas, good early on:
+
+- "What would be a creative way to showcase this project? A single scrolling story? Something more like a photo book or a slide deck?"
+- "Show me two or three different looks for the home page so I can pick one."
+- "Tell the septic project as a timeline, from the old system failing to the final inspection."
+- "Make a before-and-after comparison I can slide back and forth."
+- "Explain how a septic system works with a simple diagram, for visitors who have never thought about it."
+- "Which of my photos are the strongest? Suggest a few for the home page."
+- "Write a short 'lessons learned' section from my notes, in my voice."
+
+Everyday requests:
 
 - "Make a page for the septic project from my PDF, using the original photos."
 - "Show me the site on my computer." (You will see it in your browser before anyone else does.)
