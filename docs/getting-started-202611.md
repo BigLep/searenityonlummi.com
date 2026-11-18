@@ -70,7 +70,7 @@ Send Claude:
 
 Claude will ask about what the site should cover, who it is for, how to handle the videos, what should stay private, and how it should look and be laid out. Answer as much or as little as you like; you can change your mind later.
 
-If you would rather play with the look visually before anything gets built, Pro also includes [Claude Design](https://www.anthropic.com/news/claude-design-anthropic-labs), a design canvas at claude.ai. It is optional; ask Claude about it if you are curious.
+If you would rather play with the look visually before anything gets built, Pro also includes [Claude Design](https://www.anthropic.com/news/claude-design-anthropic-labs), a visual design tool. It is optional; ask Claude about it if you are curious.
 
 ## Ideas for what to say next
 
