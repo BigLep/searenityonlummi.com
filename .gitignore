@@ -1,0 +1,5 @@
+# Dave's full-size photos, videos, and source documents. Kept on his Mac, never published.
+originals/
+
+.DS_Store
+.claude/settings.local.json

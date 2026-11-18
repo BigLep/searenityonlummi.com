@@ -1,0 +1,41 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git show:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git pull:*)",
+      "Bash(git fetch:*)",
+      "Bash(git clone:*)",
+      "Bash(git mv:*)",
+      "Bash(gh auth status:*)",
+      "Bash(gh run list:*)",
+      "Bash(gh run view:*)",
+      "Bash(gh run watch:*)",
+      "Bash(python3 tools/strip-metadata.py:*)",
+      "Bash(python3 -m http.server:*)",
+      "Bash(sips:*)",
+      "Bash(mdls:*)",
+      "Bash(open:*)",
+      "Bash(ls:*)",
+      "Bash(mkdir:*)",
+      "Bash(cp:*)",
+      "Bash(du:*)",
+      "Bash(file:*)",
+      "Bash(curl -sI:*)"
+    ],
+    "ask": [
+      "Bash(git push:*)"
+    ],
+    "deny": [
+      "Bash(git push --force:*)",
+      "Bash(git push -f:*)",
+      "Bash(git reset --hard:*)",
+      "Bash(git clean:*)",
+      "Read(./.env)"
+    ]
+  }
+}
