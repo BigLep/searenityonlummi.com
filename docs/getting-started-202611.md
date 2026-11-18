@@ -24,6 +24,7 @@ Wait to do this until the day you plan to start, because the trial clock starts 
 
 1. Open the guest pass link from Steve and sign up with your usual email address.
 2. The pass gives you 7 days of Claude Pro free. Pro is what lets Claude build things on your computer.
+   When asked to choose a plan, pick **Pro**, not Max: the free pass only works with Pro, and choosing Max charges you right away. You will be asked for a card; it is only charged if you keep going after the 7 days.
 3. After 7 days it becomes $20/month unless you cancel. If you are enjoying it, keep it; if not, cancel in Claude's settings under billing before the 7 days end.
 
 ## Step 2: Install the Claude app
@@ -68,6 +69,8 @@ Send Claude:
 > Interview me about the website I want to build before you build anything.
 
 Claude will ask about what the site should cover, who it is for, how to handle the videos, what should stay private, and how it should look and be laid out. Answer as much or as little as you like; you can change your mind later.
+
+If you would rather play with the look visually before anything gets built, Pro also includes [Claude Design](https://www.anthropic.com/news/claude-design-anthropic-labs), a design canvas at claude.ai. It is optional; ask Claude about it if you are curious.
 
 ## Ideas for what to say next
 

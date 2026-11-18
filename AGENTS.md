@@ -28,9 +28,13 @@ If [site/index.html](site/index.html) is still the "coming soon" placeholder, th
 3. **Source material**: where are his Pages document, the exported PDF, the original photos, and the videos? Help him copy them into `originals/` (see [Files](#files)).
 4. **Videos**: how many, how long, how large? Recommend unlisted YouTube for anything longer than about 30 seconds or larger than about 20 MB, and help him upload if he agrees. Short clips can live in `site/`.
 5. **Privacy**: everything published is public, and this repo is public, so even deleted files stay visible in history. Ask him about: street address and house number, permit or inspection documents (often show address and parcel number), names and faces of people other than Dave and family, contractors and suppliers (name them or not), neighbours' property visible in photos, and costs.
-6. **Presentation**: any sites he likes, colours, photos he wants on the home page, and the overall form: a conventional multi-page site, a single scrolling story, something closer to a photo book or slide deck. Offer a couple of ideas suited to his material.
+6. **Presentation**: any sites he likes, colours, photos he wants on the home page, and the overall form: a conventional multi-page site, a single scrolling story, something closer to a photo book or slide deck. Offer a couple of ideas suited to his material. If he wants to explore looks visually before building, mention [Claude Design](https://www.anthropic.com/news/claude-design-anthropic-labs) (included in his Claude plan): he can try layouts there and hand the result back to build here. It is optional; the default is to iterate on real pages in this repo.
 
 Then propose a page outline and get his OK before building.
+
+## Design help (Claude only)
+
+Once the first real page exists and Dave is working on how the site looks, offer once to install Anthropic's official [frontend-design plugin](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/frontend-design), which helps produce distinctive pages instead of generic-looking ones. Explain what it does in a sentence, and only install it if he agrees (`/plugin install frontend-design@claude-plugins-official`, or the Desktop app's plugin settings). Then use it for design work. Other agents skip this section.
 
 ## How the site is built
 
