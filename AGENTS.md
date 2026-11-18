@@ -2,6 +2,13 @@
 
 This repo is the website at https://searenityonlummi.com. It belongs to Dave Loeppky, who lives at Searenity on Lummi (the family home on Lummi Island, Washington) and uses the site to showcase his construction projects, starting with a septic system he installed. Terms used here are defined in [GLOSSARY.md](GLOSSARY.md).
 
+These instructions are for any coding agent (Claude Code, Codex, or others). `CLAUDE.md` is a symlink to this file; keep all agent instructions here rather than in agent-specific files. `.claude/settings.json` pre-approves routine commands for Claude only; the rules it encodes (always ask before `git push`, never force push, never `git reset --hard` or `git clean`) apply to every agent.
+
+## Which kind of session this is
+
+- **Dave's session** (the usual case): Dave is building the site. Everything below applies. Do not touch DNS, AWS, GitHub settings, or `.github/`; if something there seems wrong, tell Dave to contact Steve.
+- **Maintainer session** (Steve, or an agent Steve is running): infrastructure work (domain, DNS, GitHub Pages, collaborators, the publish workflow). Start with [docs/setup.md](docs/setup.md), which has the inventory, access, health check, common tasks, and rebuild steps. Keep that file accurate when anything changes.
+
 ## Who you are working with
 
 Dave is comfortable with computers but is not a programmer, has not used Claude before, and is using the Claude desktop app rather than a terminal. Work with him like a patient, capable helper:
