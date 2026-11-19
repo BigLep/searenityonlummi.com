@@ -53,9 +53,9 @@ Everything on the site and in this repo is public. Decisions so far:
 - Contractors and suppliers **can be named**.
 - **No permit or inspection documents** (they show the address and parcel number). Also check photos for visible permit cards or signs.
 - **No costs.** Leave prices, quotes, and invoices out of text and crop them out of photos.
-- Open: faces and names of friends and children in gallery photos; neighbours' houses or people visible in photos (Claude flags these when going through photos).
+- **Gallery: faces are fine, no names.** Captions describe the moment ("Thanksgiving 2025 on the deck"), never who is in the photo. Alt text likewise describes people generically.
+- Neighbours' houses or people visible in photos: Claude flags these when going through photos, and Dave decides whether to crop or skip.
 
 ## Open questions
 
 - Videos: how long each, and does Dave want longer ones on unlisted YouTube?
-- Faces and names in the gallery: OK as is, ask people first, or place-only photos? First names or no names in captions?
