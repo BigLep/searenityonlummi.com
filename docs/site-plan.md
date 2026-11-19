@@ -35,7 +35,8 @@ What Dave wants searenityonlummi.com to be, gathered by interviewing him. Update
 ## Favorite pictures
 
 - Dave's idea: a place where family and friends can post their favourite pictures of their time at Searenity.
-- The site is static (GitHub Pages), so visitors cannot upload to it directly. Options discussed: a shared Google Photos album the site links to, or a shared album for contributions plus a curated gallery on the site that Dave picks from it. To decide.
+- The site is static (GitHub Pages), so visitors cannot upload to it directly.
+- **Decision:** a shared Google Photos album (for example "Searenity Favourites") where anyone with the link can add photos. Dave shares the album link privately by text or email; it does not go on the public site, since anyone with it can view and add. From time to time Dave picks favourites and Claude adds them to a gallery page on the site (resized, metadata stripped, with alt text).
 
 ## Source material
 
@@ -45,4 +46,3 @@ What Dave wants searenityonlummi.com to be, gathered by interviewing him. Update
 ## Open questions
 
 - Videos: how long each, and does Dave want longer ones on unlisted YouTube?
-- Favorite pictures: which photos, and is there an existing album?
