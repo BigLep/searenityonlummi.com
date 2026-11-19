@@ -28,10 +28,10 @@ What Dave wants searenityonlummi.com to be, gathered by interviewing him. Update
 - Light and heat instructions.
 - Garbage instructions.
 - How to leave the place (closing-up checklist).
-- Keep off the public site: door or lockbox codes, Wi-Fi passwords, alarm details. To decide: whether the map shows the house itself (which publishes its location) or only the route to the island and ferry.
+- Keep off the public site: door or lockbox codes, Wi-Fi passwords, alarm details.
+- **Map decision:** show only the route to the Lummi Island ferry and the general area of the island. Do not pin the house or publish the street address; family share the final directions privately.
 
 ## Open questions
 
 - Calendar: private link or public embed.
 - Septic: does the new system serve both Searenity and Migley?
-- Map: house location or only the general route.
