@@ -62,7 +62,7 @@ What Dave wants searenityonlummi.com to be, gathered by interviewing him. Update
 - Videos (length, size): IMG_9308 14s 51 MB; IMG_3782 15s 81 MB; IMG_3775 18s 96 MB; IMG_9322 36s 159 MB; IMG_9396 40s 161 MB; IMG_4245 44s 177 MB; IMG_9409 53s 186 MB; IMG_4243 57s 192 MB; IMG_4244 88s 417 MB; drone video 101s 1.2 GB. All are over the 25 MB limit as they are.
 - The PDF links to its 10 videos in a shared Google Photos album (plus one link to glendon.com).
 
-## Septic story outline (proposed, awaiting Dave's OK)
+## Septic story outline
 
 Follows the PDF's own steps, in Dave's words, lightly edited for the web:
 
@@ -78,13 +78,14 @@ Follows the PDF's own steps, in Dave's words, lightly edited for the web:
 10. **Finishing up.** New fence, the lids, the drone views, and the drone video.
 11. **Conclusion.** "All this for 2 toilets!"
 
-## Open questions
+## Septic story decisions (Dave, 2026-11-19)
 
-- Videos: link to the existing Google Photos album, or upload to unlisted YouTube so they play on the page? Linking makes that album viewable by anyone who finds the page.
-- PDF page 1 (property map) and page 4 (design drawing) look like they come from the survey or permit and may show parcel details. Proposed: leave them out and draw a simple diagram instead.
-- Drone photos and video show the houses from above, and parts of neighbouring properties. OK to use?
-- Sharon is named and shown in the writeup (and videos). OK on the public site?
-- The writeup mentions the possible future "Fellow-Shop Hall" on Migley. OK to mention publicly?
+- Outline above approved.
+- Videos go on **unlisted YouTube** and play on the page. Dave uploads them; Claude embeds them.
+- OK to use the PDF's page 1 property map and page 4 design drawing.
+- OK to use the drone photos and video, including neighbouring houses.
+- OK to name and show Sharon.
+- OK to mention the possible future "Fellow-Shop Hall" on Migley.
 
 ## Privacy
 
