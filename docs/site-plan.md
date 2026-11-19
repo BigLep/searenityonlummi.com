@@ -32,8 +32,12 @@ What Dave wants searenityonlummi.com to be, gathered by interviewing him. Update
 - Keep off the public site: door or lockbox codes, Wi-Fi passwords, alarm details.
 - **Map decision:** show only the route to the Lummi Island ferry and the general area of the island. Do not pin the house or publish the street address; family share the final directions privately.
 
+## Source material
+
+- In `originals/`: the septic writeup as a Pages document and PDF ("Searenity and Migley New Septic"), plus the first two photos.
+- Coming: about 50 more original photos and about 25 videos (the latter checked against the size limits before use; longer ones likely unlisted YouTube).
+
 ## Open questions
 
-- Septic material: are more original photos coming, and roughly how many?
-- Videos: how many, and how long each?
+- Videos: how long each, and does Dave want longer ones on unlisted YouTube?
 - Favorite pictures: which photos, and is there an existing album?
