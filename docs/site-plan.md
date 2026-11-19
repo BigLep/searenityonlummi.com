@@ -20,7 +20,8 @@ What Dave wants searenityonlummi.com to be, gathered by interviewing him. Update
 ## Calendar
 
 - The family already keeps a Google Calendar of scheduled activity at Searenity.
-- Showing it on the public site would require making the calendar public, which tells anyone when the house is empty. To decide: link to the private calendar, or embed it publicly.
+- **Decision:** the Calendar page links to the private Google Calendar rather than embedding it. Only people it is shared with in Google can see it; strangers get "no access". The calendar stays private (making it public would show when the house is empty).
+- Needed when building: the calendar's link from Dave. Its ID may contain an email address, which would then be public; check with Dave before publishing.
 
 ## Property logistics
 
@@ -33,5 +34,4 @@ What Dave wants searenityonlummi.com to be, gathered by interviewing him. Update
 
 ## Open questions
 
-- Calendar: private link or public embed.
 - Septic: does the new system serve both Searenity and Migley?
