@@ -6,7 +6,7 @@ What Dave wants searenityonlummi.com to be, gathered by interviewing him. Update
 
 - The site is about **Searenity on Lummi**, a property on Lummi Island, Washington, co-owned by Dave, his sisters Trish and Verna, and his wife Sharon.
 - The property is where friends and family gather: weekends, holidays, Thanksgiving, and many other occasions.
-- **Migley** is the adjoining property, owned by Dave and Sharon. The septic file names mention both properties (to confirm with Dave: does the new system serve both?).
+- **Migley** is the adjoining property, owned by Dave and Sharon. The new septic system serves both Searenity and Migley (confirmed by Dave).
 - Planned sections:
   1. **Calendar**
   2. **Favorite pictures**
@@ -34,4 +34,6 @@ What Dave wants searenityonlummi.com to be, gathered by interviewing him. Update
 
 ## Open questions
 
-- Septic: does the new system serve both Searenity and Migley?
+- Septic material: are more original photos coming, and roughly how many?
+- Videos: how many, and how long each?
+- Favorite pictures: which photos, and is there an existing album?
