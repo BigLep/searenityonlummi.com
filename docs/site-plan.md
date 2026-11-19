@@ -22,7 +22,16 @@ What Dave wants searenityonlummi.com to be, gathered by interviewing him. Update
 - The family already keeps a Google Calendar of scheduled activity at Searenity.
 - Showing it on the public site would require making the calendar public, which tells anyone when the house is empty. To decide: link to the private calendar, or embed it publicly.
 
+## Property logistics
+
+- A map of how to get there.
+- Light and heat instructions.
+- Garbage instructions.
+- How to leave the place (closing-up checklist).
+- Keep off the public site: door or lockbox codes, Wi-Fi passwords, alarm details. To decide: whether the map shows the house itself (which publishes its location) or only the route to the island and ferry.
+
 ## Open questions
 
-- Calendar: what it shows, who updates it, and whether it should be public.
-- Property logistics: what it covers, and what must stay off a public site.
+- Calendar: private link or public embed.
+- Septic: does the new system serve both Searenity and Migley?
+- Map: house location or only the general route.
