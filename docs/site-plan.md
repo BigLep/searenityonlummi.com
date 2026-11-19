@@ -58,8 +58,33 @@ What Dave wants searenityonlummi.com to be, gathered by interviewing him. Update
 
 ## Source material
 
-- In `originals/`: the septic writeup as a Pages document and PDF ("Searenity and Migley New Septic"), plus the first two photos.
-- Coming: about 50 more original photos and about 25 videos (the latter checked against the size limits before use; longer ones likely unlisted YouTube).
+- In `originals/`: the septic writeup as a Pages document and a 29-page PDF ("Searenity and Migley New Septic - 2024 to 2026"), 77 original photos (iPhone HEIC and JPEG, plus 4 drone stills named `dji_fly_…`), and 10 videos.
+- Videos (length, size): IMG_9308 14s 51 MB; IMG_3782 15s 81 MB; IMG_3775 18s 96 MB; IMG_9322 36s 159 MB; IMG_9396 40s 161 MB; IMG_4245 44s 177 MB; IMG_9409 53s 186 MB; IMG_4243 57s 192 MB; IMG_4244 88s 417 MB; drone video 101s 1.2 GB. All are over the 25 MB limit as they are.
+- The PDF links to its 10 videos in a shared Google Photos album (plus one link to glendon.com).
+
+## Septic story outline (proposed, awaiting Dave's OK)
+
+Follows the PDF's own steps, in Dave's words, lightly edited for the web:
+
+1. **Why a new septic?** Old non-conforming systems, the 150 ft shoreline setback, Searenity entirely inside it, a small corner of Migley outside it.
+2. **The design (Summer 2024).** Engineer Mike Eaton of On Site Septic; one shared 7-bedroom system on Migley; soil tests lead to a Glendon bio-filter; the well-setback variance and the easement.
+3. **Clearing the trees (Fall 2025).** Dan Dittrich and his son Robin; twelve trees; five videos.
+4. **The build begins.** Rich and Britta Hudson of Island Excavation; Baker Septic pumps out the old tanks.
+5. **Searenity's new tank.** The three-vault combo tank, the crane, the lid, Sharon "testing the system", the control box, and the kitchen-sink mystery.
+6. **Migley's new tank.** Delivery and install videos; the three old pipes.
+7. **The dosing pump tank.** The system's "capacitor": two 1,250-gallon tanks working as one.
+8. **Connecting it all, and power.** Trenches, lines, and the alarm panel on the Migley garage.
+9. **Building the bio-filters.** Layer by layer: frame, sand, liner, Glendon pellets, netting, gravel, sand, straw blanket.
+10. **Finishing up.** New fence, the lids, the drone views, and the drone video.
+11. **Conclusion.** "All this for 2 toilets!"
+
+## Open questions
+
+- Videos: link to the existing Google Photos album, or upload to unlisted YouTube so they play on the page? Linking makes that album viewable by anyone who finds the page.
+- PDF page 1 (property map) and page 4 (design drawing) look like they come from the survey or permit and may show parcel details. Proposed: leave them out and draw a simple diagram instead.
+- Drone photos and video show the houses from above, and parts of neighbouring properties. OK to use?
+- Sharon is named and shown in the writeup (and videos). OK on the public site?
+- The writeup mentions the possible future "Fellow-Shop Hall" on Migley. OK to mention publicly?
 
 ## Privacy
 
@@ -73,7 +98,3 @@ Everything on the site and in this repo is public. Decisions so far:
 - **No costs.** Leave prices, quotes, and invoices out of text and crop them out of photos.
 - **Gallery: faces are fine, no names.** Captions describe the moment ("Thanksgiving 2025 on the deck"), never who is in the photo. Alt text likewise describes people generically.
 - Neighbours' houses or people visible in photos: Claude flags these when going through photos, and Dave decides whether to crop or skip.
-
-## Open questions
-
-- Videos: how long each, and does Dave want longer ones on unlisted YouTube?
