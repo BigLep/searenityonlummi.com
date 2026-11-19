@@ -12,9 +12,12 @@ What Dave wants searenityonlummi.com to be, gathered by interviewing him. Update
   3. **Property logistics**
   4. **Projects**: the new septic system is the first. More to come, such as a fence and a beach trail.
 
+## Audience
+
+- Mainly friends and family who come to the property. Tone can be warm and personal; projects told as stories more than technical manuals.
+
 ## Open questions
 
-- Audience: family and friends only, or also neighbours, other builders, contractors?
 - What "Migley" in the septic file names refers to.
 - Calendar: what it shows, who updates it, and whether it should be public.
 - Property logistics: what it covers, and what must stay off a public site.
