@@ -17,6 +17,11 @@ What Dave wants searenityonlummi.com to be, gathered by interviewing him. Update
 
 - Mainly friends and family who come to the property. Tone can be warm and personal; projects told as stories more than technical manuals.
 
+## Calendar
+
+- The family already keeps a Google Calendar of scheduled activity at Searenity.
+- Showing it on the public site would require making the calendar public, which tells anyone when the house is empty. To decide: link to the private calendar, or embed it publicly.
+
 ## Open questions
 
 - Calendar: what it shows, who updates it, and whether it should be public.
