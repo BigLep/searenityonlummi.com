@@ -43,6 +43,19 @@ What Dave wants searenityonlummi.com to be, gathered by interviewing him. Update
 - In `originals/`: the septic writeup as a Pages document and PDF ("Searenity and Migley New Septic"), plus the first two photos.
 - Coming: about 50 more original photos and about 25 videos (the latter checked against the size limits before use; longer ones likely unlisted YouTube).
 
+## Privacy
+
+Everything on the site and in this repo is public. Decisions so far:
+
+- No street address, house number, or map pin on the house.
+- No door or lockbox codes, Wi-Fi passwords, or alarm details.
+- The Google Calendar and the shared photo album links are shared privately, not on the site.
+- Contractors and suppliers **can be named**.
+- **No permit or inspection documents** (they show the address and parcel number). Also check photos for visible permit cards or signs.
+- **No costs.** Leave prices, quotes, and invoices out of text and crop them out of photos.
+- Open: faces and names of friends and children in gallery photos; neighbours' houses or people visible in photos (Claude flags these when going through photos).
+
 ## Open questions
 
 - Videos: how long each, and does Dave want longer ones on unlisted YouTube?
+- Faces and names in the gallery: OK as is, ask people first, or place-only photos? First names or no names in captions?
