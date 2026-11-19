@@ -4,25 +4,54 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Searenity on Lummi</title>
-  <meta name="description" content="Projects and stories from Searenity on Lummi, on Lummi Island, Washington.">
-  <style>
-    :root { --bg: #f4f1ea; --ink: #23333a; --muted: #5d6e73; --accent: #2f6f7e; }
-    @media (prefers-color-scheme: dark) { :root { --bg: #162227; --ink: #e8ece9; --muted: #a3b2b4; --accent: #7fbfcc; } }
-    * { box-sizing: border-box; }
-    body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: var(--bg); color: var(--ink); font-family: Georgia, "Times New Roman", serif; padding: 24px 16px; }
-    main { max-width: 34rem; text-align: center; }
-    h1 { font-size: clamp(2rem, 7vw, 3.25rem); font-weight: normal; margin: 0 0 0.5rem; letter-spacing: 0.01em; }
-    .wave { color: var(--accent); font-size: 1.5rem; margin: 0 0 1.5rem; }
-    p { color: var(--muted); font-size: 1.15rem; line-height: 1.6; margin: 0; }
-    .credit { font-size: 0.95rem; font-style: italic; margin-top: 2.5rem; }
-  </style>
+  <meta name="description" content="A gathering place for family and friends on Lummi Island, Washington.">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <main>
-    <h1>Searenity on Lummi</h1>
-    <p class="wave" aria-hidden="true">~ ~ ~</p>
-    <p>Lummi Island, Washington. Stories and projects coming soon.</p>
-    <p class="credit">Published by Loeppky</p>
+    <div class="hero hero-home">
+      <img src="images/searenity-home.jpg" width="2000" height="1500"
+           alt="A sunny lawn running down to the water under a tall fir tree, with a wooden walkway on the left and a low rocky islet offshore.">
+    </div>
+
+    <section class="welcome">
+      <h1>Searenity on Lummi</h1>
+      <p class="wave" aria-hidden="true">~ ~ ~</p>
+      <p>A gathering place for family and friends on Lummi Island, Washington.</p>
+    </section>
+
+    <ul class="tiles">
+      <li class="tile">
+        <a href="calendar.html">
+          <span class="icon" aria-hidden="true">📅</span>
+          <h2>Calendar</h2>
+          <p>See who's coming and when.</p>
+        </a>
+      </li>
+      <li class="tile">
+        <a href="pictures.html">
+          <span class="icon" aria-hidden="true">📷</span>
+          <h2>Favorite Pictures</h2>
+          <p>Moments at Searenity, shared by all of us.</p>
+        </a>
+      </li>
+      <li class="tile">
+        <a href="staying.html">
+          <span class="icon" aria-hidden="true">🧭</span>
+          <h2>Getting Here &amp; Staying</h2>
+          <p>Directions, lights and heat, garbage, and closing up.</p>
+        </a>
+      </li>
+      <li class="tile">
+        <a href="projects.html">
+          <span class="icon" aria-hidden="true">🔨</span>
+          <h2>Projects</h2>
+          <p>The work that keeps the place going, starting with the new septic system.</p>
+        </a>
+      </li>
+    </ul>
   </main>
+
+  <footer class="site-footer">Published by Loeppky</footer>
 </body>
 </html>

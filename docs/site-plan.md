@@ -38,6 +38,24 @@ What Dave wants searenityonlummi.com to be, gathered by interviewing him. Update
 - The site is static (GitHub Pages), so visitors cannot upload to it directly.
 - **Decision:** a shared Google Photos album (for example "Searenity Favourites") where anyone with the link can add photos. Dave shares the album link privately by text or email; it does not go on the public site, since anyone with it can view and add. From time to time Dave picks favourites and Claude adds them to a gallery page on the site (resized, metadata stripped, with alt text).
 
+## Look and layout
+
+- **Decision (approved by Dave):** a welcoming home page with a big photo of Searenity, a short welcome line, and four large tiles that open their own pages. Project pages are told as scrolling photo stories, one photo and a few lines at a time, with videos along the way.
+- Home page photo: `originals/Searenity Home Page .heic` (lawn running down to the water, the big fir, the rock islet offshore).
+- Colours: keep the sand and sea blue-grey of the original placeholder page (Dave did not ask for a change; revisit if he does).
+- Works on phones first, since links will often arrive by text.
+
+## Page outline
+
+| Page | File | Contents |
+| --- | --- | --- |
+| Home | `site/index.html` | Photo, welcome line, four tiles |
+| Calendar | `site/calendar.html` | Short note and a button to the private Google Calendar |
+| Favorite Pictures | `site/pictures.html` | Gallery of Dave's picks from the shared album; how to add yours (ask Dave for the album link) |
+| Getting Here and Staying | `site/staying.html` | Getting there (route to the ferry), lights and heat, garbage, leaving the place |
+| Projects | `site/projects.html` | One card per project: septic first, fence and beach trail later |
+| Septic project | `site/projects/septic.html` | Scrolling photo story from the PDF, photos, and videos (once the material arrives) |
+
 ## Source material
 
 - In `originals/`: the septic writeup as a Pages document and PDF ("Searenity and Migley New Septic"), plus the first two photos.

@@ -1,6 +1,6 @@
 # Searenity on Lummi website
 
-This repo is the website at https://searenityonlummi.com. It belongs to Dave Loeppky ([davidloeppky](https://github.com/davidloeppky) on GitHub), who lives at Searenity on Lummi (the family home on Lummi Island, Washington) and uses the site to showcase his construction projects, starting with a septic system he installed. Terms used here are defined in [GLOSSARY.md](GLOSSARY.md).
+This repo is the website at https://searenityonlummi.com. It belongs to Dave Loeppky ([davidloeppky](https://github.com/davidloeppky) on GitHub), who co-owns Searenity on Lummi (a family property on Lummi Island, Washington, where family and friends gather). The site has a calendar, favourite pictures, property logistics, and projects, starting with a septic system he installed. See [docs/site-plan.md](docs/site-plan.md) for the agreed plan and privacy decisions. Terms used here are defined in [GLOSSARY.md](GLOSSARY.md).
 
 These instructions are for any coding agent (Claude Code, Codex, or others). [CLAUDE.md](CLAUDE.md) is a symlink to this file; keep all agent instructions here rather than in agent-specific files. [.claude/settings.json](.claude/settings.json) pre-approves routine commands for Claude only; the rules it encodes (always ask before `git push`, never force push, never `git reset --hard` or `git clean`) apply to every agent.
 
