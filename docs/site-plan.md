@@ -32,6 +32,11 @@ What Dave wants searenityonlummi.com to be, gathered by interviewing him. Update
 - Keep off the public site: door or lockbox codes, Wi-Fi passwords, alarm details.
 - **Map decision:** show only the route to the Lummi Island ferry and the general area of the island. Do not pin the house or publish the street address; family share the final directions privately.
 
+## Favorite pictures
+
+- Dave's idea: a place where family and friends can post their favourite pictures of their time at Searenity.
+- The site is static (GitHub Pages), so visitors cannot upload to it directly. Options discussed: a shared Google Photos album the site links to, or a shared album for contributions plus a curated gallery on the site that Dave picks from it. To decide.
+
 ## Source material
 
 - In `originals/`: the septic writeup as a Pages document and PDF ("Searenity and Migley New Septic"), plus the first two photos.
