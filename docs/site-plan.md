@@ -28,6 +28,7 @@ What Dave wants searenityonlummi.com to be, gathered by interviewing him. Update
 - A map of how to get there.
 - Light and heat instructions.
 - Garbage instructions.
+- WiFi and TV instructions (added 2026-11-19 from Dave's "Searenity WiFi and TV Instructions" document). The Wi-Fi password is left off: the page says to ask Dave, and the attached PDF copy has the password covered with "ask Dave".
 - How to leave the place (closing-up checklist).
 - Keep off the public site: door or lockbox codes, Wi-Fi passwords, alarm details.
 - **Map decision:** show only the route to the Lummi Island ferry and the general area of the island. Do not pin the house or publish the street address; family share the final directions privately.
