@@ -113,6 +113,8 @@ h1, h2, h3 { font-family: var(--serif); font-weight: normal; line-height: 1.2; }
 
 .page ul { padding-left: 1.25rem; }
 
+.address { font-family: var(--serif); font-size: 1.2rem; line-height: 1.4; }
+
 .note {
   background: var(--surface);
   border: 1px solid var(--line);

@@ -31,7 +31,7 @@ What Dave wants searenityonlummi.com to be, gathered by interviewing him. Update
 - WiFi and TV instructions (added 2026-11-19 from Dave's "Searenity WiFi and TV Instructions" document). The Wi-Fi password is left off: the page says to ask Dave, and the attached PDF copy has the password covered with "ask Dave".
 - How to leave the place (closing-up checklist).
 - Keep off the public site: door or lockbox codes, Wi-Fi passwords, alarm details.
-- **Map decision:** show only the route to the Lummi Island ferry and the general area of the island. Do not pin the house or publish the street address; family share the final directions privately.
+- **Map decision (changed by Dave, 2026-11-19):** the Getting here section shows the house's street address and links to Google Maps pinned on the house. Dave decided he is OK with the location being public. (The earlier plan was a ferry-only map with no address.)
 
 ## Favorite pictures
 
@@ -92,7 +92,7 @@ Follows the PDF's own steps, in Dave's words, lightly edited for the web:
 
 Everything on the site and in this repo is public. Decisions so far:
 
-- No street address, house number, or map pin on the house.
+- **Street address and map pin: published by Dave's choice** (2026-11-19). Earlier the plan was to keep them off the site.
 - No door or lockbox codes, Wi-Fi passwords, or alarm details.
 - The Google Calendar and the shared photo album links are shared privately, not on the site.
 - Contractors and suppliers **can be named**.
