@@ -9,9 +9,32 @@
 </head>
 <body>
   <main>
+    <!-- Home page slideshow: each photo shows for 4 seconds, then fades to the next.
+         "pano" slides fill the frame on phones and show in full on wider screens;
+         "tall" slides always show in full, with a blurred copy filling the sides. -->
     <div class="hero hero-home">
-      <img src="images/searenity-home.jpg" width="2000" height="1500"
-           alt="A sunny lawn running down to the water under a tall fir tree, with a wooden walkway on the left and a low rocky islet offshore.">
+      <div class="slideshow" aria-label="Photos of Searenity">
+        <figure class="slide pano active">
+          <img class="backdrop" src="images/searenity-home-panorama.jpg" alt="" aria-hidden="true">
+          <img class="photo" src="images/searenity-home-panorama.jpg" width="2000" height="465"
+               alt="Panorama of Searenity at sunset: a lawn with red Adirondack chairs and tall fir trees running down to the water, an orange sky over the sea and a distant island, and the house's deck on the right.">
+        </figure>
+        <figure class="slide tall">
+          <img class="backdrop" src="images/home-searenity-sunset.jpg" alt="" aria-hidden="true">
+          <img class="photo" src="images/home-searenity-sunset.jpg" width="1500" height="2000"
+               alt="Four Adirondack chairs on the shore facing a red-orange sunset, with the sun setting behind distant mountains and a rock in the water.">
+        </figure>
+        <figure class="slide tall">
+          <img class="backdrop" src="images/home-tree-sunset.jpg" alt="" aria-hidden="true">
+          <img class="photo" src="images/home-tree-sunset.jpg" width="1500" height="2000"
+               alt="A tall fir tree silhouetted against the setting sun above calm water, at the edge of the lawn.">
+        </figure>
+        <figure class="slide tall">
+          <img class="backdrop" src="images/home-seal-rock-sunset.jpg" alt="" aria-hidden="true">
+          <img class="photo" src="images/home-seal-rock-sunset.jpg" width="1500" height="2000"
+               alt="The sun setting on the horizon behind a low rock in the sea, under layered orange and grey clouds.">
+        </figure>
+      </div>
     </div>
 
     <section class="welcome">
@@ -53,5 +76,21 @@
   </main>
 
   <footer class="site-footer">Published by Loeppky</footer>
+
+  <script>
+    // Cycle the home page photos every 4 seconds. Skipped for visitors who
+    // have asked their device to reduce motion; they see the first photo.
+    (function () {
+      var slides = document.querySelectorAll('.slideshow .slide');
+      if (slides.length < 2 || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+      var current = 0;
+      setInterval(function () {
+        if (document.hidden) return;
+        slides[current].classList.remove('active');
+        current = (current + 1) % slides.length;
+        slides[current].classList.add('active');
+      }, 4000);
+    })();
+  </script>
 </body>
 </html>
