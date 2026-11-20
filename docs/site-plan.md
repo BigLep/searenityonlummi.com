@@ -45,6 +45,7 @@ What Dave wants searenityonlummi.com to be, gathered by interviewing him. Update
 - Home page photo: `originals/Searenity Home Page .heic` (lawn running down to the water, the big fir, the rock islet offshore).
 - Colours: keep the sand and sea blue-grey of the original placeholder page (Dave did not ask for a change; revisit if he does).
 - Works on phones first, since links will often arrive by text.
+- **Spelling:** American (neighbor, gray, favorite, center), chosen by Dave on 2026-11-19.
 
 ## Page outline
 
