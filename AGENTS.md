@@ -51,7 +51,7 @@ Once the first real page exists and Dave is working on how the site looks, offer
   1. Copy from `originals/` and convert HEIC to JPEG if needed: `sips -s format jpeg IN.heic --out site/images/NAME.jpg`.
   2. Resize so the long edge is at most 2000 px: `sips -Z 2000 site/images/NAME.jpg`.
   3. Remove hidden location and camera data: `python3 tools/strip-metadata.py site/images`.
-  4. If a photo now appears sideways, rotate it with `sips -r 90` (or 180, 270). Always look: many iPhone HEICs store their rotation where `sips -g orientation` reports `<nil>`, and `sips` conversion does not apply it, so the copy comes out sideways (orientation 6 needs `sips -r 90`).
+  4. If a photo now appears sideways, rotate it with `sips -r 90` (or 180, 270). Always look: many iPhone HEICs store their rotation where `sips -g orientation` reports `<nil>`, and `sips` conversion does not apply it, so the copy comes out sideways (orientation 6 needs `sips -r 90`). Rotating with `sips` writes metadata back into the file, so run step 3 again afterwards.
   Use short lowercase file names with dashes (`septic-tank-delivery.jpg`), and give every image `alt` text describing what it shows.
 - [tools/strip-metadata.py](tools/strip-metadata.py): removes GPS and camera metadata from JPEG and PNG files. `--check` reports any that still have it.
 - [docs/](docs/): notes about the project, including Dave's [getting-started guide](docs/getting-started-202611.md), the site plan, and the [infrastructure runbook](docs/setup.md).
