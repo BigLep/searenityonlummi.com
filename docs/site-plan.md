@@ -21,7 +21,7 @@ What Dave wants searenityonlummi.com to be, gathered by interviewing him. Update
 
 - The family already keeps a Google Calendar of scheduled activity at Searenity.
 - **Decision:** the Calendar page links to the private Google Calendar rather than embedding it. Only people it is shared with in Google can see it; strangers get "no access". The calendar stays private (making it public would show when the house is empty).
-- Needed when building: the calendar's link from Dave. Its ID may contain an email address, which would then be public; check with Dave before publishing.
+- Built (2026-11-19): the page has a button that opens the calendar in Google and an "Add it to your Google Calendar" link. The calendar is view-only for the people it's shared with. Its ID is a group calendar ID (no email address), and Google confirmed it is not public. Dave sent an embed code, but the page links instead of embedding, because an embedded private calendar shows an error to visitors without access and is often blocked by Safari.
 
 ## Property logistics
 
