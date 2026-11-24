@@ -49,7 +49,7 @@ Once the first real page exists and Dave is working on how the site looks, offer
 - [site/](site/): the published website.
 - `site/images/`: web-sized copies of photos. For each photo used:
   1. Copy from `originals/` and convert HEIC to JPEG if needed: `sips -s format jpeg IN.heic --out site/images/NAME.jpg`.
-  2. Resize so the long edge is at most 2000 px: `sips -Z 2000 site/images/NAME.jpg`.
+  2. Resize so the long edge is at most 2000 px: `sips -Z 2000 site/images/NAME.jpg`. Check the size first (`sips -g pixelWidth -g pixelHeight`): `sips -Z` also enlarges smaller photos, which makes them blurry, so skip this step for photos already under the limit.
   3. Remove hidden location and camera data: `python3 tools/strip-metadata.py site/images`.
   4. If a photo now appears sideways, rotate it with `sips -r 90` (or 180, 270). Always look: many iPhone HEICs store their rotation where `sips -g orientation` reports `<nil>`, and `sips` conversion does not apply it, so the copy comes out sideways (orientation 6 needs `sips -r 90`). Rotating with `sips` writes metadata back into the file, so run step 3 again afterwards.
   Use short lowercase file names with dashes (`septic-tank-delivery.jpg`), and give every image `alt` text describing what it shows.
