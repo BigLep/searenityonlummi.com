@@ -53,6 +53,7 @@ Once the first real page exists and Dave is working on how the site looks, offer
   3. Remove hidden location and camera data: `python3 tools/strip-metadata.py site/images`.
   4. If a photo now appears sideways, rotate it with `sips -r 90` (or 180, 270). Always look: many iPhone HEICs store their rotation where `sips -g orientation` reports `<nil>`, and `sips` conversion does not apply it, so the copy comes out sideways (orientation 6 needs `sips -r 90`). Rotating with `sips` writes metadata back into the file, so run step 3 again afterwards.
   Use short lowercase file names with dashes (`septic-tank-delivery.jpg`), and give every image `alt` text describing what it shows.
+- `drafts/`: pages being worked on but not yet published, laid out like `site/` (for example `drafts/projects/fence.html` with photos in `drafts/images/fence/`; `drafts/style.css` links to the real stylesheet). It is not published, but the repo is public, so drafts are still visible on GitHub. Preview with `python3 -m http.server 8001 -d drafts` and open `http://localhost:8001/projects/fence.html`. To publish a draft, move its page and images back into `site/` and link to it.
 - [tools/strip-metadata.py](tools/strip-metadata.py): removes GPS and camera metadata from JPEG and PNG files. `--check` reports any that still have it.
 - [docs/](docs/): notes about the project, including Dave's [getting-started guide](docs/getting-started-202611.md), the site plan, and the [infrastructure runbook](docs/setup.md).
 
